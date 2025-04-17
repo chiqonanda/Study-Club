@@ -1,0 +1,13 @@
+
+.foto-ganteng {
+    float: right; /* Foto di sebelah kanan */
+    width: 300px; /* Ukuran bisa disesuaikan */
+    margin-left: 20px; /* Jarak dari teks */
+    border-radius: 10px; /* Opsional: bikin foto jadi sedikit melengkung */
+}
+
+body {
+    background-color: #997f3f;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+}
