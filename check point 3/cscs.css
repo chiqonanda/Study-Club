@@ -1,0 +1,142 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    text-align: left;
+}
+
+/* Header */
+.custom-header {
+    background-color: #6f4f28;
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.text-content {
+    max-width: 50%;
+}
+
+.text-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.text-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.text-content p {
+    font-size: 1rem;
+    color: #ddd;
+}
+
+.foto-ganteng {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Content Section */
+.konten {
+    background-color: white;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.konten h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #6f4f28;
+}
+
+.konten p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Button */
+button {
+    background-color: #6f4f28;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #5e3f1c;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .custom-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .foto-ganteng {
+        margin-top: 20px;
+    }
+
+    .text-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .text-content h2 {
+        font-size: 1.3rem;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .konten {
+        padding: 15px;
+    }
+
+    .foto-ganteng {
+        width: 120px;
+        height: 120px;
+    }
+}
