@@ -6,4 +6,7 @@ Check Point 2
 ![image](https://github.com/user-attachments/assets/63e55b8e-a61d-46b3-88fd-2269d6b28dcd)
 sabar ya belum final kejutan ini
 
+![image](https://github.com/user-attachments/assets/893f9e0e-d085-422f-aa6b-15555e58fbcd)
+
+maaf lebih dikejutkan sama pa
 
