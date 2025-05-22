@@ -10,3 +10,6 @@ sabar ya belum final kejutan ini
 
 maaf lebih dikejutkan sama pa
 
+![image](https://github.com/user-attachments/assets/5934d4a0-a70f-4ea0-90ac-300687aa9509)
+
+
