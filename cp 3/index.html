@@ -1,0 +1,72 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Portofolia - CoffeeChoo</title>
+    <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+    <nav class="navbar">
+        <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="about.html">Tentang Kami</a></li>
+        <li><a href="display.html">Display CSS</a></li>
+        </ul>
+    </nav>
+
+    <header class="custom-header">
+        <div class="header-content">
+        <div class="text-content">
+            <h1>CoffeeChoo</h1>
+            <h2>Best Coffee Shop</h2>
+            <p>Welcome to Coffeeshop</p>
+        </div>
+        <img src="keindahan.jpg" class="foto-ganteng" alt="Kopi nikmat">
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="konten">
+        <h2>Tentang CoffeeChoo</h2>
+        <p>Kami adalah coffee shop lokal yang berdiri sejak 2020 dan memiliki visi untuk menyajikan kenikmatan kopi terbaik dari biji pilihan nusantara.</p>
+        </section>
+
+        <section class="accordion-section">
+        <button class="accordion">Our Coffee</button>
+        <div class="panel">
+            <p>Kopi kami berasal dari petani lokal terbaik di Toraja, Gayo, dan Flores. Disangrai dengan standar tinggi untuk menjaga rasa.</p>
+        </div>
+
+        <button class="accordion">Customer Service</button>
+        <div class="panel">
+            <p>Kami melayani pelanggan setiap hari dari pukul 08.00–22.00 dan terbuka untuk kritik, saran, serta pemesanan acara.</p>
+        </div>
+
+        <button class="accordion">Partner With Us</button>
+        <div class="panel">
+            <p>Tertarik membuka cabang kemitraan CoffeeChoo? Kami membuka peluang bagi siapa pun yang ingin tumbuh bersama.</p>
+        </div>
+        </section>
+
+        <section class="konten">
+        <h3>Top Selling Product</h3>
+        <p>Coffee Made by the greatest beans of all time</p>
+        <a href="https://www.instagram.com/chiqonanda" target="_blank">
+            <button>Lihat Selengkapnya</button>
+        </a>
+        </section>
+    </main>
+
+    <script>
+        const acc = document.querySelectorAll(".accordion");
+        acc.forEach(button => {
+        button.addEventListener("click", () => {
+            button.classList.toggle("active");
+            const panel = button.nextElementSibling;
+            panel.style.display = panel.style.display === "block" ? "none" : "block";
+        });
+        });
+    </script>
+    </body>
+    </html>
