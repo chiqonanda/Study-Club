@@ -12,4 +12,5 @@ maaf lebih dikejutkan sama pa
 
 ![image](https://github.com/user-attachments/assets/5934d4a0-a70f-4ea0-90ac-300687aa9509)
 
+<img width="1855" height="978" alt="image" src="https://github.com/user-attachments/assets/a8db1d8a-b962-4a02-9b2f-9d4a4cddbc1d" />
 
