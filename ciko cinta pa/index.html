@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Toko Kopi</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gradient-to-r from-amber-100 via-yellow-50 to-amber-200 font-sans">
+
+  <!-- Navbar -->
+  <nav class="fixed top-0 left-0 w-full bg-amber-900/80 backdrop-blur-md shadow-md z-50">
+    <div class="max-w-6xl mx-auto flex justify-between items-center p-4 text-white">
+      <h1 class="text-2xl font-bold text-shadow">Toko Kopi</h1>
+      <ul class="flex space-x-6">
+        <li><a href="#home" class="hover:underline">Home</a></li>
+        <li><a href="#menu" class="hover:underline">Menu</a></li>
+        <li><a href="#contact" class="hover:underline">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="relative h-screen flex items-center justify-center text-center fade-in">
+    <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93'); filter: brightness(0.7);"></div>
+    <div class="absolute inset-0 bg-black/30"></div>
+    <div class="relative z-10 text-white max-w-2xl px-4">
+      <h2 class="text-4xl md:text-6xl font-bold mb-4 title">Nikmati Secangkir Kebahagiaan</h2>
+      <p class="text-lg md:text-xl mb-6">Dari biji kopi terbaik pilihan kami, diseduh dengan cinta untukmu setiap hari.</p>
+      <button class="btn-gradient">Pesan Sekarang</button>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+<section id="menu" class="py-20 bg-gradient-to-b from-amber-50 to-amber-100 fade-in">
+  <div class="max-w-6xl mx-auto px-4 text-center">
+    <h2 class="title text-amber-900 mb-12">Menu Kami</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+      <!-- Item 1 -->
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1512568400610-62da28bc8a13" alt="Espresso" class="menu-img">
+        <h3 class="menu-title">Espresso</h3>
+        <p class="menu-desc">Kopi hitam pekat dengan rasa kuat dan aromatik.</p>
+        <span class="menu-price">Rp 18.000</span>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348" alt="Latte" class="menu-img">
+        <h3 class="menu-title">Caffe Latte</h3>
+        <p class="menu-desc">Perpaduan espresso dan susu panas yang lembut.</p>
+        <span class="menu-price">Rp 25.000</span>
+      </div>
+
+      <!-- Item 3 -->
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93" alt="Cappuccino" class="menu-img">
+        <h3 class="menu-title">Cappuccino</h3>
+        <p class="menu-desc">Espresso, susu, dan busa susu dengan cita rasa seimbang.</p>
+        <span class="menu-price">Rp 23.000</span>
+      </div>
+
+      <!-- Item 4 -->
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0" alt="Americano" class="menu-img">
+        <h3 class="menu-title">Americano</h3>
+        <p class="menu-desc">Espresso yang dicampur air panas, ringan namun tetap mantap.</p>
+        <span class="menu-price">Rp 20.000</span>
+      </div>
+
+      <!-- Item 5 -->
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1498804103079-a6351b050096" alt="Mocha" class="menu-img">
+        <h3 class="menu-title">Mocha</h3>
+        <p class="menu-desc">Perpaduan kopi, cokelat, dan susu yang manis dan nikmat.</p>
+        <span class="menu-price">Rp 27.000</span>
+      </div>
+
+      <!-- Item 6 -->
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93" alt="Cold Brew" class="menu-img">
+        <h3 class="menu-title">Cold Brew</h3>
+        <p class="menu-desc">Kopi seduh dingin dengan rasa halus dan rendah asam.</p>
+        <span class="menu-price">Rp 30.000</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="min-h-screen flex flex-col justify-center items-center contact-bg fade-in">
+    <div class="card max-w-md w-full">
+      <h2 class="title bounce text-amber-900">Hubungi Kami</h2>
+      <form class="flex flex-col space-y-4">
+        <input type="text" placeholder="Nama Anda" class="form-input" />
+        <input type="email" placeholder="Email Anda" class="form-input" />
+        <textarea placeholder="Pesan" class="form-input"></textarea>
+        <button type="submit" class="btn-gradient">Kirim</button>
+      </form>
+    </div>
+  </section>
+
+    <!-- Footer -->
+  <footer class="bg-amber-900 text-white py-6">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between px-4">
+      <p class="mb-4 md:mb-0">&copy; 2025 Toko Kopi. All rights reserved.</p>
+      <div class="flex space-x-4 text-lg">
+        <a href="#" class="hover:text-amber-400"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="hover:text-amber-400"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="hover:text-amber-400"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
